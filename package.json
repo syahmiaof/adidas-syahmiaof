@@ -1,0 +1,21 @@
+{
+  "name": "adidas-syahmiaof",
+  "version": "1.0.0",
+  "description": "adidas x SYAHMIAOF — Interactive 3D WebGL Collaboration Experience developed by Syahmi AOF",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test_ui_sweater.js"
+  },
+  "keywords": [
+    "threejs",
+    "hydra",
+    "webgl",
+    "adidas",
+    "syahmiaof",
+    "interactive-3d"
+  ],
+  "author": "Syahmi AOF <hello@syahmiaof.my>",
+  "license": "MIT"
+}

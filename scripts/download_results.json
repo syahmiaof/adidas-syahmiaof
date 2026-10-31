@@ -1,0 +1,2275 @@
+{
+  "success": [
+    {
+      "path": "assets/_sounds/main-optimized.mp3",
+      "size": 1692974,
+      "status": "cached"
+    },
+    {
+      "path": "assets/css/style.css",
+      "size": 2695,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma-font.json",
+      "size": 538,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma/calibration_template_adineue.png",
+      "size": 18462,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma/calibration_template_demi.png",
+      "size": 17960,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma/calibration_template_light.png",
+      "size": 18076,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma/calibration_template_thin.png",
+      "size": 16752,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma/new-share-card-portrait-bomber.json",
+      "size": 17092,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma/share-card-bomber.json",
+      "size": 12694,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma/share-card-portrait-tracksuit-black.json",
+      "size": 18964,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma/share-card-portrait-tracksuit-white.json",
+      "size": 17924,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma/share-card-square-bomber.json",
+      "size": 14163,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma/share-card-square-tracksuit-black.json",
+      "size": 13462,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma/share-card-square-tracksuit-white.json",
+      "size": 15668,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma/share-card-tracksuit-black.json",
+      "size": 13329,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/figma/share-card-tracksuit-white.json",
+      "size": 12558,
+      "status": "cached"
+    },
+    {
+      "path": "assets/data/uil.json",
+      "size": 952492,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Demi.json",
+      "size": 81209,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Demi.png",
+      "size": 107392,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Demi.ttf",
+      "size": 144020,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Demi.woff",
+      "size": 64608,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Demi.woff2",
+      "size": 44496,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Light.json",
+      "size": 82485,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Light.png",
+      "size": 102117,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Light.ttf",
+      "size": 141912,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Light.woff",
+      "size": 63504,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Light.woff2",
+      "size": 43692,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Medium.json",
+      "size": 82397,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Medium.png",
+      "size": 107644,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Medium.ttf",
+      "size": 142988,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Medium.woff",
+      "size": 64324,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Medium.woff2",
+      "size": 44284,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Thin.json",
+      "size": 82804,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Thin.png",
+      "size": 88848,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Thin.ttf",
+      "size": 141492,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Thin.woff",
+      "size": 60852,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/URWDIN-Thin.woff2",
+      "size": 41632,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/adineuePRO-Regular.json",
+      "size": 120952,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/adineuePRO-Regular.png",
+      "size": 112849,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/adineuePRO-Regular.ttf",
+      "size": 65524,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/adineuePRO-Regular.woff",
+      "size": 29000,
+      "status": "cached"
+    },
+    {
+      "path": "assets/fonts/adineuePRO-Regular.woff2",
+      "size": 21688,
+      "status": "cached"
+    },
+    {
+      "path": "assets/geometry/bomberjacket/closed/buttons.json",
+      "size": 81577,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/ball/ball.json",
+      "size": 169506,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/bomberjacket/closed/detail.json",
+      "size": 1328900,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/bomberjacket/closed/back.json",
+      "size": 1749885,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/bomberjacket/closed/front.json",
+      "size": 1001232,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/bomberjacket/closed/arms.json",
+      "size": 1638341,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/intro/stripe.json",
+      "size": 3842,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/intro/bg.json",
+      "size": 25802,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/skateboard/deck.json",
+      "size": 301141,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world1/floor.json",
+      "size": 10484,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world2/floor.json",
+      "size": 284,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/tracksuit/updated/detail.json",
+      "size": 1439440,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world1/scene_details.json",
+      "size": 609862,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/tracksuit/updated/arms.json",
+      "size": 1182519,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/tracksuit/updated/back.json",
+      "size": 1700891,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/tracksuit/updated/front.json",
+      "size": 1661658,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world2/parts.json",
+      "size": 155312,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world1/wall.json",
+      "size": 20943,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world3/floor.json",
+      "size": 288,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world2/stripes.json",
+      "size": 809,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world3/stripes2.json",
+      "size": 4439,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/skateboard/wheels.json",
+      "size": 687894,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world3/hover.json",
+      "size": 15544,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world3/screen2.json",
+      "size": 1731,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world3/metals.json",
+      "size": 596164,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world3/speaker2.json",
+      "size": 958796,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world3/table-optimized.json",
+      "size": 2756617,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/_scenelayout/black.jpg",
+      "size": 1129,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world3/wall.json",
+      "size": 8225,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world3/window.json",
+      "size": 1791,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/_lighting/arealights.json",
+      "size": 307348,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/_scenelayout/uv.jpg",
+      "size": 138695,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/geometry/world3/table.json",
+      "size": 5209279,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/ball/low/ball_Normal5_low.png",
+      "size": 41845,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/ball/ball_BaseColor_optimized.png",
+      "size": 130843,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/ball/low/ball_MRO_low.png",
+      "size": 44845,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/ball/low/ball_BaseColor_low.png",
+      "size": 50101,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bgLines/lineTest.png",
+      "size": 9508,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/ball/ball_MRO_optimized.png",
+      "size": 137029,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/ball/ball_Normal5_optimized.png",
+      "size": 679027,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bgLines/lineTest3.png",
+      "size": 5671,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/arms_MRO_optimized.png",
+      "size": 342086,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/arms_baked_optimized.png",
+      "size": 168204,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/arms_baked_closeup.png",
+      "size": 637576,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/arms_Normal_optimized.png",
+      "size": 1769396,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/arms_Normal_closeup.png",
+      "size": 7518647,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/back_MRO_optimized.png",
+      "size": 55272,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/back_baked_optimized.png",
+      "size": 114424,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/back_baked_closeup.png",
+      "size": 439145,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/detail_MRO_optimized.png",
+      "size": 57903,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/back_Normal_optimized.png",
+      "size": 1603892,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/detail_baked_closeup.png",
+      "size": 470813,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/back_Normal_closeup.png",
+      "size": 6670091,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/detail_Normal_optimized.png",
+      "size": 1748335,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/detail_baked_optimized.png",
+      "size": 122319,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/detail_Normal_closeup.png",
+      "size": 6883722,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/front_MRO_optimized.png",
+      "size": 44920,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/front_baked_optimized.png",
+      "size": 154207,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/low/arms_MRO_low.png",
+      "size": 94873,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/front_baked_closeup.png",
+      "size": 601728,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/low/arms_baked_low.png",
+      "size": 38530,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/low/back_MRO_low.png",
+      "size": 17501,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/low/back_Normal_low.png",
+      "size": 378922,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/low/arms_Normal_low.png",
+      "size": 421047,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/front_Normal_optimized.png",
+      "size": 1611981,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/front_Normal_closeup.png",
+      "size": 6683980,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/low/back_baked_low.png",
+      "size": 29193,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/low/detail_MRO_low.png",
+      "size": 20281,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/low/detail_Normal_low.png",
+      "size": 422379,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/low/front_MRO_low.png",
+      "size": 14646,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/low/detail_baked_low.png",
+      "size": 32173,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/low/front_baked_low.png",
+      "size": 36261,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/closed/low/front_Normal_low.png",
+      "size": 380016,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/matcap.png",
+      "size": 111180,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/bomberjacket/grey.jpg",
+      "size": 1127,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/common/particle.jpg",
+      "size": 2356,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/env-specular-sRGB.png",
+      "size": 308262,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/env-diffuse-sRGB.png",
+      "size": 7848,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/equirectmaps/world1.jpg",
+      "size": 17908,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/equirectmaps/world2e.jpg",
+      "size": 32836,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/equirectmaps/world5.jpg",
+      "size": 14945,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/floor/floor_DefaultMaterial_MRO_optimized.png",
+      "size": 186596,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/congrats/fabric-normal-optimized.png",
+      "size": 1787921,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/congrats/fabric-normal.png",
+      "size": 5462910,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/floor/low/floor_Intro3d_MRO_low.png",
+      "size": 51937,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/floor/low/floor_DefaultMaterial_MRO_low.png",
+      "size": 58063,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/floor/floor_intro_BaseColor_optimized.png",
+      "size": 237582,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/floor/shadow_screen.png",
+      "size": 211606,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/floor/floor_Intro3d_MRO_optimized.png",
+      "size": 209151,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/floor/low/floor_intro_BaseColor_low.png",
+      "size": 57995,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/floor/low/floor_intro3d_Normal_low.png",
+      "size": 269564,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/fx/noise.jpg",
+      "size": 54476,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/floor/floor_intro3d_Normal_optimized.png",
+      "size": 1446598,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/icons/facebook.svg",
+      "size": 365,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/icons/facebook-black.svg",
+      "size": 367,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/icons/arrow.png",
+      "size": 225,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/icons/phone.svg",
+      "size": 352,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/icons/cross-black.svg",
+      "size": 229,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/icons/cross.svg",
+      "size": 229,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/icons/instagram.svg",
+      "size": 2931,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/icons/instagram-black.svg",
+      "size": 2931,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/icons/twitter-black.svg",
+      "size": 1451,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/icons/twitter.svg",
+      "size": 1449,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/intro/env-001.jpg",
+      "size": 31755,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/intro/stripe1b.jpg",
+      "size": 67207,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/intro/world2-stripe.jpg",
+      "size": 57578,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/intro/shadow_stripes.png",
+      "size": 25539,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/intro/shadow_products.png",
+      "size": 18849,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/intro/light_products.png",
+      "size": 45343,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/intro/stripe3b.jpg",
+      "size": 76511,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/intro/stripe2b.jpg",
+      "size": 76835,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/intro/world1-stripe.jpg",
+      "size": 137402,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/logos/arrow.png",
+      "size": 159,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/logos/chile.svg",
+      "size": 5580,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/logos/chille.png",
+      "size": 2308,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/pbr/matcap4.jpg",
+      "size": 27629,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/intro/world3-stripe.jpg",
+      "size": 40344,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/logos/chile-logo.png",
+      "size": 1202,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sharecard/adidas-logo-dark.png",
+      "size": 2656,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/logos/logo.svg",
+      "size": 5098,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/pbr/lut.png",
+      "size": 16623,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sharecard/adidas-logo.png",
+      "size": 2696,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sharecard/bomber.png",
+      "size": 215853,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sharecard/post-fx-tracksuitwhite.png",
+      "size": 2529,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sharecard/logo-grey.png",
+      "size": 5496,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sharecard/post-fx-bomber-portrait.png",
+      "size": 222306,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sharecard/logo.png",
+      "size": 5347,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sharecard/post-fx-tracksuitblack.png",
+      "size": 188010,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sharecard/bomber2.png",
+      "size": 390705,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sharecard/post-fx-bomber.png",
+      "size": 254902,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sharecard/post-fx-tracksuitblack-portrait.png",
+      "size": 325710,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sharecard/tracksuit-black.png",
+      "size": 199072,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sharecard/tracksuit-white.png",
+      "size": 413326,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/skateboard/deck_MRO_optimized.png",
+      "size": 175183,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/skateboard/deck_baked_optimized.png",
+      "size": 144321,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/skateboard/deck_Normal_optimized.png",
+      "size": 275597,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/skateboard/low/deck_Normal_low.png",
+      "size": 58729,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/skateboard/low/hardware_Normal_low.png",
+      "size": 100853,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/skateboard/low/deck_MRO_low.png",
+      "size": 38715,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/close/grey.png",
+      "size": 26089,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/skateboard/hardware_MRO_optimized.png",
+      "size": 122136,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/skateboard/low/deck_baked_low.png",
+      "size": 35149,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/close/white.png",
+      "size": 25277,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/skateboard/wheels_baked_optimized.png",
+      "size": 78113,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/skateboard/low/hardware_MRO_low.png",
+      "size": 41565,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/skateboard/hardware_Normal_optimized.png",
+      "size": 353480,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/drag/grey.png",
+      "size": 61201,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/skateboard/low/wheels_baked_low.png",
+      "size": 24151,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/close/grey.json",
+      "size": 7735,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/close/white.json",
+      "size": 7735,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/drag/grey.json",
+      "size": 14143,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/logo/in.json",
+      "size": 6099,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/logo/in.png",
+      "size": 21473,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/drag/white.json",
+      "size": 14143,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/interact/grey.png",
+      "size": 39813,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/interact/grey.json",
+      "size": 13668,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/interact/white.json",
+      "size": 13668,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/interact/white.png",
+      "size": 40230,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/drag/white.png",
+      "size": 67544,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/logo/out.png",
+      "size": 20104,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/logo/out.json",
+      "size": 6380,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/scroll/grey.json",
+      "size": 11780,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/scroll/grey.png",
+      "size": 9577,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/scroll/white.png",
+      "size": 9632,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/sprites/scroll/white.json",
+      "size": 11780,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/grey.jpg",
+      "size": 1127,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/matcap2.png",
+      "size": 225577,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/matcap.png",
+      "size": 26020,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/matcap_blur.png",
+      "size": 25944,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/arms_MRO_optimized.png",
+      "size": 161952,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/arms_baked_closeup.png",
+      "size": 160303,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/arms_baked_optimized.png",
+      "size": 160303,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/arms_Normal_closeup.png",
+      "size": 7597597,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/arms_Normal_optimized.png",
+      "size": 1913277,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/back_MRO_optimized.png",
+      "size": 111578,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/arms_white_baked_closeup.png",
+      "size": 1655400,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/arms_white_baked_optimized.png",
+      "size": 336502,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/back_Normal_optimized.png",
+      "size": 1709394,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/back_baked_closeup.png",
+      "size": 642436,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/back_baked_optimized.png",
+      "size": 177971,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/detail_MRO_optimized.png",
+      "size": 143045,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/back_white_baked_optimized.png",
+      "size": 326876,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/back_white_baked_closeup.png",
+      "size": 1622864,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/detail_Normal_closeup.png",
+      "size": 1666132,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/detail_Normal_optimized.png",
+      "size": 1666132,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/back_Normal_closeup.png",
+      "size": 7432750,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/detail_white_baked_optimized.png",
+      "size": 362396,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/detail_white_baked_closeup.png",
+      "size": 362396,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/front_MRO_optimized.png",
+      "size": 123269,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/detail_baked_optimized.png",
+      "size": 231615,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/detail_baked_closeup.png",
+      "size": 848569,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/arms_MRO_low.png",
+      "size": 49868,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/front_baked_optimized.png",
+      "size": 220111,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/front_baked_closeup.png",
+      "size": 220082,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/front_white_backed_optimized.png",
+      "size": 393409,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/front_white_backed_closeup.png",
+      "size": 1995452,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/front_Normal_optimized.png",
+      "size": 1519774,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/front_Normal_closeup.png",
+      "size": 6605289,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/back_MRO_low.png",
+      "size": 35460,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/arms_white_baked_low.png",
+      "size": 85104,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/arms_baked_low.png",
+      "size": 47043,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/back_baked_low.png",
+      "size": 43239,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/arms_Normal_low.png",
+      "size": 471929,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/back_white_baked_low.png",
+      "size": 74181,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/detail_MRO_low.png",
+      "size": 43903,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/detail_Normal_low.png",
+      "size": 417539,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/back_Normal_low.png",
+      "size": 383153,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/front_MRO_low.png",
+      "size": 41448,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/detail_white_baked_low.png",
+      "size": 90644,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/detail_baked_low.png",
+      "size": 57669,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/front_baked_low.png",
+      "size": 60569,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/front_white_backed.png",
+      "size": 91422,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/low/front_Normal_low.png",
+      "size": 344773,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/transitions/clouds.jpg",
+      "size": 24669,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/transitions/crease.jpg",
+      "size": 38042,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/videos/world1.jpg",
+      "size": 26419,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/transitions/noise.png",
+      "size": 1608,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/transitions/screenlines.png",
+      "size": 149,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/transitions/lines.png",
+      "size": 455412,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/videos/world2.jpg",
+      "size": 26428,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/videos/world3.jpg",
+      "size": 27775,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/transitions/steam.png",
+      "size": 78412,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/floor_MRO_optimized.png",
+      "size": 144837,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/low/floor_MRO_low.png",
+      "size": 42360,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/low/scene_Details_BaseColor_low.png",
+      "size": 168514,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/low/floor_BaseColor_low.png",
+      "size": 221763,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/floor_BaseColor_optimized.png",
+      "size": 997340,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/low/floor_Normal_low.png",
+      "size": 432214,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/floor_Normal_optimized.png",
+      "size": 1860063,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/low/wall_MRO_low.png",
+      "size": 69823,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/low/scene_Details_MRO_low.png",
+      "size": 76877,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/low/wallbaked_BaseColor_12_low.png",
+      "size": 354501,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/low/scene_Details_Normal_low.png",
+      "size": 204298,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/low/wall_Normal_low.png",
+      "size": 517316,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/matcap.png",
+      "size": 210789,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/shadow_product.png",
+      "size": 43213,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/shadow_ball.png",
+      "size": 8520,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/wall_MRO_optimized.png",
+      "size": 232458,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/wall_Normal_optimized.png",
+      "size": 1940854,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world1/wallbaked_BaseColor_12_optimized.png",
+      "size": 1468387,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/floor_MRO_optimized.png",
+      "size": 261152,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/floor_light.png",
+      "size": 7528,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/floor_Normal_optimized.png",
+      "size": 1982205,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/floor_diffuse_optimized.png",
+      "size": 784995,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/low/floor_MRO_low.png",
+      "size": 65934,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/matcap.png",
+      "size": 27411,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/low/floor_Normal_low.png",
+      "size": 420575,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/low/parts_MRO_low.png",
+      "size": 78527,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/low/floor_diffuse_low.png",
+      "size": 166346,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/low/parts_diffuse_low.png",
+      "size": 158817,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/parts_MRO_optimized.png",
+      "size": 292015,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/low/parts_Normal_low.png",
+      "size": 421076,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/parts_Normal_optimized.png",
+      "size": 1817983,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/shadow_skate.png",
+      "size": 16314,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/red.jpg",
+      "size": 1130,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/grey.png",
+      "size": 1644,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/low/floor_MRO_low.png",
+      "size": 7412,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world2/parts_diffuse_optimized.png",
+      "size": 684327,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/low/floor_low.png",
+      "size": 179780,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/low/speaker_MRO_low.png",
+      "size": 36306,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/low/table_low.png",
+      "size": 242855,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/low/stripes2_low.png",
+      "size": 291204,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/low/table_MRO_low.png",
+      "size": 55731,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/low/wall_MRO2_low.png",
+      "size": 26310,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/low/speaker2_low.png",
+      "size": 195197,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/matcap_metal.png",
+      "size": 227928,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/matcap2.png",
+      "size": 242284,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/low/stripes3_low.png",
+      "size": 253895,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/speaker_MRO_optimized.png",
+      "size": 109636,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/low/wall2_low.png",
+      "size": 261051,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/low/wall_normal_low.png",
+      "size": 229935,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/js/hydra/hydra-thread-es5.js",
+      "size": 107540,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/js/hydra/hydra-thread.js",
+      "size": 10644,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/meta/apple-touch-icon.png",
+      "size": 2319,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/images/world3/speaker2_optimized.png",
+      "size": 689488,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/meta/favicon.ico",
+      "size": 15086,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/meta/site.webmanifest",
+      "size": 450,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/meta/browserconfig.xml",
+      "size": 258,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/meta/favicon-16x16.png",
+      "size": 428,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/meta/favicon-32x32.png",
+      "size": 703,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/js/app.js",
+      "size": 945066,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/meta/safari-pinned-tab.svg",
+      "size": 6523,
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/shaders/compiled.vs",
+      "size": 187655,
+      "status": "downloaded"
+    }
+  ],
+  "failed": [
+    {
+      "path": "assets/geometry/bomberjacket/arm_low.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/geometry/bomberjacket/floor.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/geometry/bomberjacket/color_low.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/data/uil-partial.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/geometry/bomberjacket/main_low.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/geometry/bomberjacket/updated/arms.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/geometry/bomberjacket/updated/front.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/geometry/bomberjacket/updated/back.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/geometry/bomberjacket/wall.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/geometry/tracksuit/arms_low.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/geometry/tracksuit/details_low.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/geometry/bomberjacket/updated/detail.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/geometry/tracksuit/pants_low.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/geometry/tracksuit/main_low.json",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/_temp/test-diffuse.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/_temp//normal.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/_temp/test-normal.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/ball/ball_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/ball/ball_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/ball/ball_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/arms_Base_Color.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bgLines/lineTest2.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/arms_Normal_OpenGL.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/colors_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/floor_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/main_Base_Color.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/colors_Base_Color.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/back1_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/colors_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/floor_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/floor_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/colors_Normal_OpenGL.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/main_Normal_OpenGL.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/back1_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/back1_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/backarm1_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/bomber_low_lod_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/backarm1_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/backarm1_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/bomber_low_lod_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/details1_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/front1_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/details1_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/bomber_low_lod_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/arms1_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/details1_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/front1_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/front1_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/frontarm_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/frontarm_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/testing/frontarm_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/back1_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/arms_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/arms1_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/front_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/front_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/back1_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/mid_substance_back1_Roughness.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/mid_substance_detail1_Roughness.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/back_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/mid_substance_front_Roughness.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/detail1_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/detail1_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/detail_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/mid_substance_arms1_Roughness.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/updated/front_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/wall_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/closeups-world1/patchblack-normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/closeups-world1/stripesblack-normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/wall_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/closeups-world1/patchblack.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/closeups-world1/stripesblack.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/bomberjacket/wall_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/closeups-world2/stripesblack.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/closeups-world2/bomberpatch.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/closeups-world1/zipperblack-normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/closeups-world1/zipperblack.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/closeups-world2/bomberback-normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/closeups-world2/bomberback.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/closeups-world2/bomberpatch-normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/closeups-world2/stripesblack-normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/congrats/fabric-occlusion.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/congrats/test.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/floor/sand.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/intro/2.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/intro/1.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/intro/0.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/products/world2/0.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/products/world2/2.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/products/world2/1.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/skateboard/deck_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/skateboard/deck_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/skateboard/deck_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/skateboard/deck_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/skateboard/hardware_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/skateboard/hardware_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/skateboard/hardware_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/skateboard/hardware_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/arms_high1_Normal_OpenGL.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/arms_color.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/arms_white_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/detail_high1_Normal_OpenGL.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/detail_white_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/details_color.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/main_high1_Normal_OpenGL.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/pants_black_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/main_color.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/newpants_high1_Normal_OpenGL.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/main_white_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/pants_black_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/pants_color.jpg",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/pants_white_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/arms_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/arms_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/arms_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/back_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/arms_white_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/back_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/back_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/back_white_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/detail_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/detail_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/detail_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/detail_white_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/front_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/front_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/front_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/front_white_baked.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/mid_tracksuit_substance_patch_back_Roughness.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/mid_tracksuit_substance_patch_arms_Roughness.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/mid_tracksuit_substance_patch_detail_Roughness.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/tracksuit/updated/mid_tracksuit_substance_patch_front_Roughness.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world1/floor_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world1/floor_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world1/floor_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world1/floor_roughness.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world1/scene_Details_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world1/scene_Details_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world1/wall_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world1/scene_Details_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world1/scene_Details_Roughness.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world1/wall_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world1/wall_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world1/wall_roughness.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world1/wallbaked_BaseColor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world2/floor_Roughness.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world2/floor_diffuse.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world2/floor_Normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world2/matcap2.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world2/parts_diffuse.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world2/parts_Roughness.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world3/backparts_diffuse.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world3/floor.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world3/speaker.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world3/table_MRO.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world3/stripes.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world3/table.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world3/wall.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world3/wall2.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world3/wall_MRO2.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    },
+    {
+      "path": "assets/images/world3/wall_normal.png",
+      "reason": "SPA 404 Fallback (returned HTML)"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui, viewport-fit=cover">
+	<meta name="google" content="notranslate">
+	<title>adidas x SYAHMIAOF – 3D WebGL Experience</title>
+	<meta name="description" content="adidas Originals x Syahmi AOF – Interactive 3D WebGL clothing experience developed by Syahmi AOF.">
+	<base href="/">
+
+	<!-- OpenGraph Social Preview -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="adidas x SYAHMIAOF – 3D WebGL Experience">
+	<meta property="og:description" content="adidas Originals x Syahmi AOF – Interactive 3D WebGL clothing experience developed by Syahmi AOF.">
+	<meta property="og:url" content="https://syahmiaof.my">
+	<meta property="og:site_name" content="Syahmi AOF">
+	<meta property="og:image" content="https://syahmiaof.my/assets/images/og-preview-syahmiaof.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="1733">
+	<meta property="og:image:height" content="908">
+
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="adidas x SYAHMIAOF – 3D WebGL Experience">
+	<meta name="twitter:description" content="adidas Originals x Syahmi AOF – Interactive 3D WebGL clothing experience developed by Syahmi AOF.">
+	<meta name="twitter:image" content="https://syahmiaof.my/assets/images/og-preview-syahmiaof.png">
+	<meta name="twitter:creator" content="@syahmiaof">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/meta/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/meta/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/meta/favicon-16x16.png">
+	<link rel="shortcut icon" href="assets/meta/favicon.ico">
+	<meta name="theme-color" content="#000000">
+
+	<style type="text/css">
+		@font-face {
+			font-family: 'URW DIN';
+			src: url('assets/fonts/URWDIN-Medium.woff2') format('woff2'), url('assets/fonts/URWDIN-Medium.woff') format('woff');
+			font-weight: 500;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'URW DIN';
+			src: url('assets/fonts/URWDIN-Light.woff2') format('woff2'), url('assets/fonts/URWDIN-Light.woff') format('woff');
+			font-weight: 400;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'adineue PRO';
+			src: url('assets/fonts/adineuePRO-Regular.woff2') format('woff2'), url('assets/fonts/adineuePRO-Regular.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+		}
+		body {
+			font-family: 'URW DIN', 'helvetica', 'arial', 'sans-serif';
+			-webkit-font-smoothing: antialiased;
+		}
+		body, html, #Stage {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			background: #000;
+			-ms-content-zooming: none;
+			-ms-touch-action: none;
+			touch-action: none;
+		}
+		#Stage, #Stage * {
+			position: absolute;
+			user-select: none;
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			-o-user-select: none;
+			-ms-user-select: none;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			-webkit-text-size-adjust: none;
+		}
+		#Stage * input, #Stage * textarea {
+			-moz-user-select: auto;
+			-webkit-user-select: auto;
+			-o-user-select: auto;
+			-ms-user-select: auto;
+			-webkit-tap-highlight-color: auto;
+		}
+		#Stage .IEMessage a { position: relative; }
+		#Stage input.placeholder { box-shadow: 0 0 0 black; }
+		#Stage br, #Stage span { position: relative; }
+		#Stage input, #Stage input:before, #Stage input:after {
+			-webkit-user-select: initial;
+			-khtml-user-select: initial;
+			-moz-user-select: initial;
+			-ms-user-select: initial;
+			user-select: initial;
+		}
+		.use-keyboard:focus { outline: 2px solid #0f0 !important; }
+		.email-world2::placeholder { color: rgba(255,0,0,0.8); }
+		.email-world1::placeholder { color: rgba(255,255,255,0.8); }
+		#Stage .Label a { position: relative; display: inline; color: inherit; }
+		#Stage .CookiesBar a { position: relative; display: inline; color: inherit; }
+		.input-world3::placeholder { color: rgba(255,255,255,0.8); }
+		body::-webkit-scrollbar-track, body ::-webkit-scrollbar-track { background-color: rgba(255,255,255,0); }
+		body::-webkit-scrollbar, body ::-webkit-scrollbar { width: 12px; }
+		body::-webkit-scrollbar-thumb, body ::-webkit-scrollbar-thumb { background-color: rgba(255,255,255,0.2); }
+		body.world3::-webkit-scrollbar-thumb, body.world3 ::-webkit-scrollbar-thumb { background-color: rgba(0,0,0,0.1); }
+		.footer {
+			position: fixed !important;
+			left: max(24px, env(safe-area-inset-left, 24px)) !important;
+			bottom: max(16px, env(safe-area-inset-bottom, 16px)) !important;
+			display: flex !important;
+			flex-direction: column !important;
+			align-items: flex-start !important;
+			gap: 4px !important;
+			max-width: min(360px, calc(100vw - 32px)) !important;
+			z-index: 99999 !important;
+			pointer-events: auto !important;
+			font-family: "URW DIN", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+			text-transform: uppercase !important;
+			font-size: 10px !important;
+			letter-spacing: 0.14em !important;
+			line-height: 15px !important;
+			color: #999999 !important;
+		}
+		.footer-dev {
+			position: relative !important;
+			display: block !important;
+			font-weight: 500 !important;
+			white-space: nowrap !important;
+			color: inherit !important;
+		}
+		.footer-dev strong {
+			color: inherit !important;
+			font-weight: 700 !important;
+			letter-spacing: 0.16em !important;
+		}
+		.footer-links {
+			position: relative !important;
+			display: flex !important;
+			align-items: center !important;
+			flex-wrap: nowrap !important;
+			gap: 7px !important;
+			white-space: nowrap !important;
+			color: inherit !important;
+		}
+		.footer-link {
+			position: relative !important;
+			display: inline-block !important;
+			color: inherit !important;
+			text-decoration: none !important;
+			cursor: pointer !important;
+			transition: color 200ms ease, opacity 200ms ease !important;
+			opacity: 0.85 !important;
+		}
+		.footer-link:hover {
+			opacity: 1 !important;
+			color: #FFFFFF !important;
+			text-decoration: underline !important;
+		}
+		body.world3 .footer-link:hover {
+			color: #111111 !important;
+		}
+		.footer-dot {
+			position: relative !important;
+			display: inline-block !important;
+			opacity: 0.4 !important;
+			color: inherit !important;
+			font-weight: bold !important;
+			user-select: none !important;
+		}
+		@media (max-width: 768px) {
+			.footer {
+				left: max(16px, env(safe-area-inset-left, 16px)) !important;
+				bottom: max(12px, env(safe-area-inset-bottom, 12px)) !important;
+				font-size: 9px !important;
+				letter-spacing: 0.10em !important;
+				gap: 3px !important;
+			}
+			.footer-links {
+				gap: 5px !important;
+			}
+		}
+	</style>
+
+	<script type="text/json" id="_CACHE_">1602098237455</script>
+		<script type='text/json' id="_DATA_">{"de":{"closeup":{"_title":"Closeup","world1_buynow_link":"#","world1_closeup_1":"Vom Streetstyle inspiriert","world1_closeup_2":"Dank des wetterfesten Materials\nim Wet-Look bist du bei jedem\nWetter unaufhaltsam","world1_closeup_3":"Weich angerautes Futter\nspendet abends Wärme","world1_separator":"","world2_buynow_link":"#","world2_closeup_1":"Ein Modell der Extraklasse","world2_closeup_2":"Leichtes, isolierendes Futter hält\ndich warm und lässt dich zu\nHöchstleistungen auflaufen","world2_closeup_3":"Mühelos zugängliche Tasche\nfür den Alltag","world2_separator":"","world3_buynow_link":"#","world3_closeup_1":"Die Power, Neues zu schaffen","world3_closeup_2":"Erreiche mithilfe des\nwetterfesten Materials im\nWet-Look neue Bestzeiten","world3_closeup_3":"Warmes, weich angerautes\nFutter bringt dich durch\nlange Nächte","world3_separator":""},"updated":1600350980185,"contest":{"_title":"Contest","found_landing":"undefined","found_world_1":"undefined","found_world_2":"undefined","found_world_3":"undefined","general_contest_separator":"","loose_cta_label":"SYAHMIAOF ENTDECKEN","loose_cta_link":"undefined","loose_paragraph_1":"undefined","loose_paragraph_2":"Entdecke weitere kreative 3D-Web-Erlebnisse auf studioweb.syahmiaof.my von Syahmi AOF.","loose_title":"undefined","not_this_time_paragraph":"undefined","not_this_time_title":"undefined","popup_enter_button":"Enter","popup_terms_html":"I agree with the terms.","request_api":"","sorry_paragraph":"undefined","sorry_title":"undefined","win_cta":"undefined","win_separator":"","win_terms":"undefined","win_title":"undefined","win_world_1":"undefined","win_world_2":"undefined","win_world_3":"undefined","win_world_link_1":"undefined","win_world_link_2":"undefined","win_world_link_3":"","world1_separator":"","world2_separator":"","world3_separator":""},"general":{"_title":"General","cookie_bar_message":"","cookie_msg_disable":"","cookie_msg_enable":"","cookie_msg_separator":"","cookie_msg_subtitle_1":"","cookie_msg_subtitle_2":"","cookie_msg_text_1":"","cookie_msg_text_2":"","cookie_msg_title":"","cookies_title":"","error_404":"404","general_separator":"","instructions_1":"SCROLLEN UND MEHR ENTDECKEN","instructions_2":"WÄHLE ZUNÄCHST EIN PRODUKT AUS","instructions_3":"KLICKE, UM DEN TON EINZUSCHALTEN","instructions_4":"NUTZE DIE MAUS ODER DIE PFEILE, UM ZWISCHEN DEN PRODUKTEN ZU NAVIGIEREN","instructions_5":"","instructions_6":"ZUM INTERAGIEREN KLICKEN UND ZIEHEN","instructions_7":"ZUM SCHLIEẞEN AUẞERHALB DES BEREICHS KLICKEN","instructions_separator":"","loader_title":"präsentiert","old_browser":"Browser veraltet","privacy_title":"","screen_rotation":"Drehe deinen Bildschirm","share_cta":"TEILEN","share_feed_label":"Feed","share_instructions_desktop":"PEOPLE LIE, ACTIONS DONT","share_instructions_mobile":"PEOPLE LIE, ACTIONS DONT","share_placeholder":"SYAHMIAOF","share_separator":"","share_social_fallback_android":"Chrome","share_social_fallback_ios":"Safari","share_story_label":"Story","share_title":"TEILE DEIN\nPERSÖNLICHES DESIGN","share_tweet":"","terms_separator":"","terms_title":""},"menu":{"_title":"Menu","buy_cta":"ZUR KOLLEKTION","buy_item_1_label":"Schwarze Trainingsjacke","buy_item_1_link":"#","buy_item_2_label":"Schwarze Trainingshose","buy_item_2_link":"#","buy_item_3_label":"Weiße Trainingsjacke","buy_item_3_link":"#","buy_item_4_label":"Weiße Trainingshose","buy_item_4_link":"#","buy_item_5_label":"Bomberjacke","buy_item_5_link":"#","buy_item_6_label":"Schwarze Kapuzenjacke","buy_item_6_link":"#","buy_item_7_label":"Schwarzes T-Shirt","buy_item_7_link":"#","buy_item_8_label":"Roter Pulli mit Rundhalsausschnitt","buy_item_8_link":"#","buy_item_9_label":"Entdecke die gesamte Kollektion","buy_item_9_link":"#","buy_separator":"","lang_de":"Deutsch","lang_en":"English","lang_fr":"Français","lang_it":"Italiano","lang_separator":"","menu_item_1":"Home","menu_item_2":"Schwarzer Trainingsanzug","menu_item_3":"Bomberjacke","menu_item_4":"Weißer Trainingsanzug","menu_separator":"","lang_ms":"Bahasa Melayu","lang_zh":"中文"},"meta":{"_title":"Meta","facebookDescription":"","facebookImage":"","facebookTitle":"adidas x SYAHMIAOF","pageDescription":"","pageTitle":"adidas x SYAHMIAOF – 3D WebGL Experience","twitterDescription":"","twitterImage":"","twitterTitle":"adidas x SYAHMIAOF","twitterTweet":""}},"en":{"closeup":{"_title":"Closeup","world1_buynow_link":"#","world1_closeup_1":"Born from the streets","world1_closeup_2":"Weather-resistant wet look\nfabric keeps you moving","world1_closeup_3":"Soft-brushed lining keeps\nyou warm at night","world1_separator":"","world2_buynow_link":"#","world2_closeup_1":"In a class of it’s own","world2_closeup_2":"Lightweight insulated padding\nfor speed and warmth","world2_closeup_3":"Essential, easy-access storage\nto keep you moving","world2_separator":"","world3_buynow_link":"#","world3_closeup_1":"The power to create","world3_closeup_2":"Push forward with weather\nresistant wet look fabric","world3_closeup_3":"Warm, soft-brushed lining\nfor those late nights","world3_separator":""},"updated":1600350980185,"contest":{"_title":"Contest","found_landing":"Find the hidden elements on\neach world for a chance to win.","found_world_1":"You found the Ball!\nClick to find out if you’ve won.","found_world_2":"You found the Skateboard!\nClick to find out if you’ve won.","found_world_3":"You found the Orb!\nClick to find out if you’ve won.","general_contest_separator":"","loose_cta_label":"EXPLORE SYAHMIAOF","loose_cta_link":"#","loose_paragraph_1":"You didn't win this time, but come back later to try again.","loose_paragraph_2":"Check out more creative 3D web experiences at studioweb.syahmiaof.my by Syahmi AOF.","loose_title":"Too bad…","not_this_time_paragraph":"TRY AGAIN TOMORROW","not_this_time_title":"Not this time!","popup_enter_button":"Enter","popup_terms_html":"I agree with terms and conditions.","request_api":"","sorry_paragraph":"","sorry_title":"Sorry!","win_cta":"CLAIM","win_separator":"","win_terms":"* Terms & Conditions apply","win_title":"Congratulations!","win_world_1":"You've won a “JBL Charge 4 Bluetooth speaker”.","win_world_2":"You've won a “JBL Charge 4 Bluetooth speaker”.","win_world_3":"You've won a “JBL Charge 4 Bluetooth speaker”.","win_world_link_1":"","win_world_link_2":"","win_world_link_3":"","world1_separator":"","world2_separator":"","world3_separator":""},"general":{"_title":"General","cookie_bar_message":"","cookie_msg_disable":"","cookie_msg_enable":"","cookie_msg_separator":"","cookie_msg_subtitle_1":"","cookie_msg_subtitle_2":"","cookie_msg_text_1":"","cookie_msg_text_2":"","cookie_msg_title":"","cookies_title":"COOKIES","error_404":"404 Page Not Found","general_separator":"","instructions_1":"SCROLL TO EXPLORE","instructions_2":"SELECT A PRODUCT TO BEGIN","instructions_3":"CLICK TO ENABLE SOUND","instructions_4":"DRAG OR USE ARROWS\nTO NAVIGATE BETWEEN PRODUCTS","instructions_5":"","instructions_6":"CLICK AND DRAG\nTO INTERACT","instructions_7":"CLICK OUTSIDE TO CLOSE","instructions_separator":"","loader_title":"presents","old_browser":"Your browser is too old.","privacy_title":"PRIVACY","screen_rotation":"Rotate your screen to portrait orientation","share_cta":"Share","share_feed_label":"Feed","share_instructions_desktop":"PEOPLE LIE, ACTIONS DONT","share_instructions_mobile":"PEOPLE LIE, ACTIONS DONT","share_placeholder":"SYAHMIAOF","share_separator":"","share_social_fallback_android":"","share_social_fallback_ios":"","share_story_label":"Story","share_title":"SHARE YOUR\nCUSTOMIZED VISUAL","share_tweet":"adidas x SYAHMIAOF 3D WebGL experience developed by Syahmi AOF","terms_separator":"","terms_title":"TERMS & CONDITIONS"},"menu":{"_title":"Menu","buy_cta":"SHOP THE COLLECTION","buy_item_1_label":"Black Track Top","buy_item_1_link":"#","buy_item_2_label":"Black Track Pants","buy_item_2_link":"#","buy_item_3_label":"White Track Top","buy_item_3_link":"#","buy_item_4_label":"White Track Pants","buy_item_4_link":"#","buy_item_5_label":"Bomber Jacket","buy_item_5_link":"#","buy_item_6_label":"Black Hoodie","buy_item_6_link":"#","buy_item_7_label":"Black T-shirt","buy_item_7_link":"#","buy_item_8_label":"Red Crew Neck","buy_item_8_link":"#","buy_item_9_label":"Shop the full collection","buy_item_9_link":"#","buy_separator":"","lang_de":"Deutsch","lang_en":"English","lang_fr":"Français","lang_it":"Italiano","lang_separator":"","menu_item_1":"Home","menu_item_2":"Black Tracksuit","menu_item_3":"Bomber Jacket","menu_item_4":"White Tracksuit","menu_separator":"","lang_ms":"Bahasa Melayu","lang_zh":"中文"},"meta":{"_title":"Meta","facebookDescription":"adidas Originals x Syahmi AOF – Interactive 3D WebGL clothing experience developed by Syahmi AOF.","facebookImage":"","facebookTitle":"adidas x SYAHMIAOF","pageDescription":"adidas Originals x Syahmi AOF – Interactive 3D WebGL clothing experience developed by Syahmi AOF.","pageTitle":"adidas x SYAHMIAOF – 3D WebGL Experience","twitterDescription":"","twitterImage":"","twitterTitle":"adidas x SYAHMIAOF","twitterTweet":""}},"fr":{"closeup":{"_title":"Closeup","world1_buynow_link":"#","world1_closeup_1":"Né dans la rue","world1_closeup_2":"Un tissu effet mouillé\nrésistant aux intempéries","world1_closeup_3":"Une doublure ultra douce","world1_separator":"","world2_buynow_link":"#","world2_closeup_1":"Unique en son genre","world2_closeup_2":"Matelassage léger et isolant","world2_closeup_3":"Une poche pratique","world2_separator":"","world3_buynow_link":"#","world3_closeup_1":"Le pouvoir de créer","world3_closeup_2":"Dépasse tes limites","world3_closeup_3":"Une doublure chaude","world3_separator":""},"updated":1600350980185,"contest":{"_title":"Contest"},"general":{"_title":"General","instructions_1":"FAIS DÉFILER POUR EXPLORER","instructions_2":"SÉLECTIONNE UN ARTICLE POUR COMMENCER","instructions_3":"CLIQUE POUR ACTIVER LE SON","instructions_4":"FAIS GLISSER OU UTILISE LES FLÈCHES","instructions_5":"","instructions_6":"CLIQUE ET FAIS GLISSER","instructions_7":"CLIQUE EN DEHORS POUR FERMER","loader_title":"présente","share_instructions_desktop":"PEOPLE LIE, ACTIONS DONT","share_instructions_mobile":"PEOPLE LIE, ACTIONS DONT","share_placeholder":"SYAHMIAOF","share_title":"PARTAGE TON IMAGE"},"menu":{"_title":"Menu","buy_cta":"DÉCOUVRE LA COLLECTION","buy_item_1_label":"Veste de survêtement noire","buy_item_1_link":"#","buy_item_2_label":"Pantalon de survêtement noir","buy_item_2_link":"#","buy_item_3_label":"Veste de survêtement blanche","buy_item_3_link":"#","buy_item_4_label":"Pantalon de survêtement blanc","buy_item_4_link":"#","buy_item_5_label":"Veste Bomber","buy_item_5_link":"#","buy_item_6_label":"Sweat-shirt à capuche noir","buy_item_6_link":"#","buy_item_7_label":"T-shirt noir","buy_item_7_link":"#","buy_item_8_label":"Sweat-shirt ras du cou rouge","buy_item_8_link":"#","buy_item_9_label":"Découvre toute la collection","buy_item_9_link":"#","lang_de":"Deutsch","lang_en":"English","lang_fr":"Français","lang_it":"Italiano","menu_item_1":"Accueil","menu_item_2":"Survêtement noir","menu_item_3":"Veste Bomber","menu_item_4":"Survêtement blanc","lang_ms":"Bahasa Melayu","lang_zh":"中文"},"meta":{"_title":"Meta","pageTitle":"adidas x SYAHMIAOF – 3D WebGL Experience"}},"it":{"closeup":{"_title":"Closeup","world1_buynow_link":"#","world1_closeup_1":"Un design di urban","world1_closeup_2":"Tessuto impermeabile","world1_closeup_3":"Morbida fodera","world1_separator":"","world2_buynow_link":"#","world2_closeup_1":"Unico nel suo genere","world2_closeup_2":"Leggera imbottitura","world2_closeup_3":"Tasca pratica","world2_separator":"","world3_buynow_link":"#","world3_closeup_1":"Dedicata ai creators","world3_closeup_2":"Spingiti oltre","world3_closeup_3":"Morbida fodera","world3_separator":""},"updated":1600350980185,"contest":{"_title":"Contest"},"general":{"_title":"General","instructions_1":"SCORRI PER ESPLORARE","instructions_2":"SELEZIONA UN PRODOTTO","instructions_3":"CLICCA PER IL SUONO","instructions_4":"TRASCINA CON IL MOUSE","instructions_5":"","instructions_6":"CLICCA E TRASCINA","instructions_7":"CLICCA FUORI PER CHIUDERE","loader_title":"presentano","share_instructions_desktop":"PEOPLE LIE, ACTIONS DONT","share_instructions_mobile":"PEOPLE LIE, ACTIONS DONT","share_placeholder":"SYAHMIAOF","share_title":"CONDIVIDI"},"menu":{"_title":"Menu","buy_cta":"SCOPRI LA COLLEZIONE","buy_item_1_label":"Track top Black","buy_item_1_link":"#","buy_item_2_label":"Track pants Black","buy_item_2_link":"#","buy_item_3_label":"Track top White","buy_item_3_link":"#","buy_item_4_label":"Track pants White","buy_item_4_link":"#","buy_item_5_label":"Bomber","buy_item_5_link":"#","buy_item_6_label":"Hoodie Black","buy_item_6_link":"#","buy_item_7_label":"T-shirt Black","buy_item_7_link":"#","buy_item_8_label":"Felpa Crew Red","buy_item_8_link":"#","buy_item_9_label":"Scopri la collezione","buy_item_9_link":"#","lang_de":"Deutsch","lang_en":"English","lang_fr":"Français","lang_it":"Italiano","menu_item_1":"Homepage","menu_item_2":"Tracksuit Black","menu_item_3":"Bomber","menu_item_4":"Tracksuit White","lang_ms":"Bahasa Melayu","lang_zh":"中文"},"meta":{"_title":"Meta","pageTitle":"adidas x SYAHMIAOF – 3D WebGL Experience"}},"ms":{"closeup":{"_title":"Paparan Dekat","world1_buynow_link":"#","world1_closeup_1":"Lahir dari jalanan","world1_closeup_2":"Fabrik rintang cuaca wet-look\nmemastikan anda terus bergerak","world1_closeup_3":"Lapisan dalam lembut disikat\nmemberi kehangatan malam","world1_separator":"","world2_buynow_link":"#","world2_closeup_1":"Tersendiri dalam kelasnya","world2_closeup_2":"Penebat ringan berlapik\nuntuk kepantasan dan kehangatan","world2_closeup_3":"Storan penting mudah capai\nuntuk pergerakan harian","world2_separator":"","world3_buynow_link":"#","world3_closeup_1":"Kuasa untuk mencipta","world3_closeup_2":"Mara ke hadapan dengan fabrik\nrintang cuaca wet-look","world3_closeup_3":"Lapisan dalam lembut hangat\nuntuk malam yang panjang","world3_separator":""},"updated":1600350980185,"contest":{"_title":"Peraduan","found_landing":"Cari elemen tersembunyi pada\nsetiap dunia untuk peluang menang.","found_world_1":"Anda menjumpai Bola!\nKlik untuk lihat jika anda menang.","found_world_2":"Anda menjumpai Papan Selaju!\nKlik untuk lihat jika anda menang.","found_world_3":"Anda menjumpai Bebola Orb!\nKlik untuk lihat jika anda menang.","general_contest_separator":"","loose_cta_label":"TEROKAI SYAHMIAOF","loose_cta_link":"#","loose_paragraph_1":"Anda belum menang kali ini, cuba lagi nanti.","loose_paragraph_2":"Lihat lebih banyak pengalaman web 3D kreatif di studioweb.syahmiaof.my oleh Syahmi AOF.","loose_title":"Belum ada rezeki…","not_this_time_paragraph":"CUBA LAGI ESOK","not_this_time_title":"Bukan kali ini!","popup_enter_button":"Masuk","popup_terms_html":"Saya bersetuju dengan terma dan syarat.","request_api":"","sorry_paragraph":"","sorry_title":"Maaf!","win_cta":"TUNTUT","win_separator":"","win_terms":"* Tertakluk kepada Terma & Syarat","win_title":"Tahniah!","win_world_1":"Anda memenangi pembesar suara “JBL Charge 4 Bluetooth”.","win_world_2":"Anda memenangi pembesar suara “JBL Charge 4 Bluetooth”.","win_world_3":"Anda memenangi pembesar suara “JBL Charge 4 Bluetooth”.","win_world_link_1":"","win_world_link_2":"","win_world_link_3":"","world1_separator":"","world2_separator":"","world3_separator":""},"general":{"_title":"Umum","cookie_bar_message":"","cookie_msg_disable":"","cookie_msg_enable":"","cookie_msg_separator":"","cookie_msg_subtitle_1":"","cookie_msg_subtitle_2":"","cookie_msg_text_1":"","cookie_msg_text_2":"","cookie_msg_title":"","cookies_title":"KUKI","error_404":"404 Halaman Tidak Dijumpai","general_separator":"","instructions_1":"SKROL UNTUK MENEROKA","instructions_2":"PILIH PRODUK UNTUK BERMULA","instructions_3":"KLIK UNTUK MENGHIDUPKAN BUNYI","instructions_4":"SERET ATAU GUNAKAN ANAK PANAH\nUNTUK NAVIGASI PRODUK","instructions_5":"","instructions_6":"KLIK DAN SERET\nUNTUK INTERAKSI","instructions_7":"KLIK DI LUAR UNTUK TUTUP","instructions_separator":"","loader_title":"mempersembahkan","old_browser":"Pelayar web anda terlalu lama.","privacy_title":"PRIVASI","screen_rotation":"Putarkan skrin anda ke orientasi potret","share_cta":"Kongsi","share_feed_label":"Suapan","share_instructions_desktop":"PEOPLE LIE, ACTIONS DONT","share_instructions_mobile":"PEOPLE LIE, ACTIONS DONT","share_placeholder":"SYAHMIAOF","share_separator":"","share_social_fallback_android":"","share_social_fallback_ios":"","share_story_label":"Cerita","share_title":"KONGSI VISUAL\nPERIBADI ANDA","share_tweet":"Pengalaman 3D WebGL adidas x SYAHMIAOF dibangunkan oleh Syahmi AOF","terms_separator":"","terms_title":"TERMA & SYARAT"},"menu":{"_title":"Menu","buy_cta":"BELI KOLEKSI INI","buy_item_1_label":"Jaket Trek Hitam","buy_item_1_link":"#","buy_item_2_label":"Seluar Trek Hitam","buy_item_2_link":"#","buy_item_3_label":"Jaket Trek Putih","buy_item_3_link":"#","buy_item_4_label":"Seluar Trek Putih","buy_item_4_link":"#","buy_item_5_label":"Jaket Bomber","buy_item_5_link":"#","buy_item_6_label":"Baju Hoodie Hitam","buy_item_6_link":"#","buy_item_7_label":"Baju T-Shirt Hitam","buy_item_7_link":"#","buy_item_8_label":"Baju Berkolar Bulat Merah","buy_item_8_link":"#","buy_item_9_label":"Beli semua koleksi","buy_item_9_link":"#","buy_separator":"","lang_de":"Deutsch","lang_en":"English","lang_fr":"Français","lang_it":"Italiano","lang_ms":"Bahasa Melayu","lang_zh":"中文","lang_separator":"","menu_item_1":"Laman Utama","menu_item_2":"Pakaian Trek Hitam","menu_item_3":"Jaket Bomber","menu_item_4":"Pakaian Trek Putih","menu_separator":""},"meta":{"_title":"Meta","facebookDescription":"adidas Originals x Syahmi AOF – Pengalaman pakaian 3D WebGL interaktif yang dibangunkan oleh Syahmi AOF.","facebookImage":"","facebookTitle":"adidas x SYAHMIAOF","pageDescription":"adidas Originals x Syahmi AOF – Pengalaman pakaian 3D WebGL interaktif yang dibangunkan oleh Syahmi AOF.","pageTitle":"adidas x SYAHMIAOF – 3D WebGL Pengalaman","twitterDescription":"","twitterImage":"","twitterTitle":"adidas x SYAHMIAOF","twitterTweet":""}},"zh":{"closeup":{"_title":"特写","world1_buynow_link":"#","world1_closeup_1":"源自街头风格","world1_closeup_2":"全天候防风雨湿光面料\n让你随时畅行无阻","world1_closeup_3":"柔和拉绒内衬\n在夜幕中为你御寒","world1_separator":"","world2_buynow_link":"#","world2_closeup_1":"独树一帜的非凡设计","world2_closeup_2":"轻盈隔热衬垫\n带来速度与保暖体验","world2_closeup_3":"便携随身收纳口袋\n满足日常所需","world2_separator":"","world3_buynow_link":"#","world3_closeup_1":"创造无限潜能","world3_closeup_2":"采用防风雨湿光面料\n勇往直前","world3_closeup_3":"温暖柔和拉绒内衬\n陪伴度过漫长夜晚","world3_separator":""},"updated":1600350980185,"contest":{"_title":"活动","found_landing":"寻找每个场景中的隐藏元素，\n赢取精美好礼。","found_world_1":"你找到了足球！\n点击查看是否中奖。","found_world_2":"你找到了滑板！\n点击查看是否中奖。","found_world_3":"你找到了能量光球！\n点击查看是否中奖。","general_contest_separator":"","loose_cta_label":"探索 SYAHMIAOF","loose_cta_link":"#","loose_paragraph_1":"这次没有中奖，欢迎稍后再来尝试。","loose_paragraph_2":"前往 studioweb.syahmiaof.my 体验由 Syahmi AOF 打造的更多创意 3D Web 体验。","loose_title":"很遗憾…","not_this_time_paragraph":"明天再试一次","not_this_time_title":"这次未中奖！","popup_enter_button":"进入","popup_terms_html":"我同意条款与条件。","request_api":"","sorry_paragraph":"","sorry_title":"抱歉！","win_cta":"领取奖品","win_separator":"","win_terms":"* 须遵守条款与细则","win_title":"恭喜！","win_world_1":"你赢取了一台“JBL Charge 4 蓝牙音箱”。","win_world_2":"你赢取了一台“JBL Charge 4 蓝牙音箱”。","win_world_3":"你赢取了一台“JBL Charge 4 蓝牙音箱”。","win_world_link_1":"","win_world_link_2":"","win_world_link_3":"","world1_separator":"","world2_separator":"","world3_separator":""},"general":{"_title":"常规","cookie_bar_message":"","cookie_msg_disable":"","cookie_msg_enable":"","cookie_msg_separator":"","cookie_msg_subtitle_1":"","cookie_msg_subtitle_2":"","cookie_msg_text_1":"","cookie_msg_text_2":"","cookie_msg_title":"","cookies_title":"COOKIES","error_404":"404 页面未找到","general_separator":"","instructions_1":"滚动以探索","instructions_2":"选择一款产品开始","instructions_3":"点击开启声音","instructions_4":"拖拽或使用箭头\n在产品之间切换","instructions_5":"","instructions_6":"点击并拖拽\n进行互动","instructions_7":"点击外部关闭","instructions_separator":"","loader_title":"倾情呈现","old_browser":"您的浏览器版本过低。","privacy_title":"隐私政策","screen_rotation":"请将屏幕旋转至竖屏方向","share_cta":"分享","share_feed_label":"动态","share_instructions_desktop":"PEOPLE LIE, ACTIONS DONT","share_instructions_mobile":"PEOPLE LIE, ACTIONS DONT","share_placeholder":"SYAHMIAOF","share_separator":"","share_social_fallback_android":"","share_social_fallback_ios":"","share_story_label":"快拍","share_title":"分享您的\n专属定制视觉","share_tweet":"adidas x SYAHMIAOF 3D WebGL 互动体验，由 Syahmi AOF 开发","terms_separator":"","terms_title":"条款与条件"},"menu":{"_title":"菜单","buy_cta":"选购该系列","buy_item_1_label":"黑色运动上衣","buy_item_1_link":"#","buy_item_2_label":"黑色运动长裤","buy_item_2_link":"#","buy_item_3_label":"白色运动上衣","buy_item_3_link":"#","buy_item_4_label":"白色运动长裤","buy_item_4_link":"#","buy_item_5_label":"飞行员夹克","buy_item_5_link":"#","buy_item_6_label":"黑色连帽卫衣","buy_item_6_link":"#","buy_item_7_label":"黑色T恤","buy_item_7_link":"#","buy_item_8_label":"红色圆领卫衣","buy_item_8_link":"#","buy_item_9_label":"选购完整系列","buy_item_9_link":"#","buy_separator":"","lang_de":"Deutsch","lang_en":"English","lang_fr":"Français","lang_it":"Italiano","lang_ms":"Bahasa Melayu","lang_zh":"中文","lang_separator":"","menu_item_1":"首页","menu_item_2":"黑色运动套装","menu_item_3":"飞行员夹克","menu_item_4":"白色运动套装","menu_separator":""},"meta":{"_title":"元数据","facebookDescription":"adidas Originals x Syahmi AOF – 由 Syahmi AOF 开发的互动式 3D WebGL 服饰体验。","facebookImage":"","facebookTitle":"adidas x SYAHMIAOF","pageDescription":"adidas Originals x Syahmi AOF – 由 Syahmi AOF 开发的互动式 3D WebGL 服饰体验。","pageTitle":"adidas x SYAHMIAOF – 3D WebGL 体验","twitterDescription":"","twitterImage":"","twitterTitle":"adidas x SYAHMIAOF","twitterTweet":""}}}</script>
+	<script type='text/json' id="_LANGUAGES_">{"en":"English","ms":"Bahasa Melayu","zh":"中文"}</script>
+
+	<!-- Safe Sentry Mock -->
+	<script>
+		window.Sentry = {
+			init: function() {},
+			configureScope: function(cb) {
+				if (typeof cb === 'function') {
+					try {
+						cb({
+							setExtra: function() {},
+							setTag: function() {},
+							setUser: function() {}
+						});
+					} catch(e) {}
+				}
+			},
+			captureException: function(e) { console.warn("[Sentry Mock]", e); },
+			captureMessage: function(m) { console.log("[Sentry Mock]", m); }
+		};
+	</script>
+
+	<!-- Safe Tracking Mocks -->
+	<script>
+		window.dataLayer = [];
+		function gtag(){ window.dataLayer.push(arguments); }
+		window.fbq = function() {};
+	</script>
+
+	<!-- App Bootstrapper -->
+	<script>
+		(function() {
+			for (var _scr_ = ["_CACHE_", "_DATA_", "_LANGUAGES_"], i = 0; i < _scr_.length; i++) {
+				var _boot_ = _scr_[i];
+				window[_boot_] = JSON.parse(document.getElementById(_boot_).text);
+			}
+			window._LANGUAGE_ = 'en';
+			let p = 'app';
+			try { eval('async () => {};'); } catch(e) { window._ES5_ = true; p = 'es5-' + p; }
+			let s = document.createElement('script');
+			s.src = 'assets/js/' + p + '.js?' + window._CACHE_;
+			s.async = true;
+			document.head.appendChild(s);
+		})();
+	</script>
+</head>
+<body>
+</body>
+</html>
