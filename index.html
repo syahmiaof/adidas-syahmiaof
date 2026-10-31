@@ -224,7 +224,15 @@
 				var _boot_ = _scr_[i];
 				window[_boot_] = JSON.parse(document.getElementById(_boot_).text);
 			}
-			window._LANGUAGE_ = 'en';
+			var _pathMatch = location.pathname.match(/^\/([a-z]{2})(\/|$)/i);
+			var _paramMatch = new URLSearchParams(location.search).get('lang');
+			var _storedLang = null;
+			try { _storedLang = localStorage.getItem('app_lang'); } catch(e) {}
+			var _detected = (_pathMatch && _pathMatch[1]) || _paramMatch || _storedLang || 'en';
+			if (!window._LANGUAGES_ || !window._LANGUAGES_[_detected]) {
+				_detected = 'en';
+			}
+			window._LANGUAGE_ = _detected;
 			let p = 'app';
 			try { eval('async () => {};'); } catch(e) { window._ES5_ = true; p = 'es5-' + p; }
 			let s = document.createElement('script');
