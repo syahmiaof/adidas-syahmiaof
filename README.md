@@ -42,8 +42,6 @@
 - **Post-Processing Chain (NukePass)**: Custom GLSL fragment shader passes including UnrealBloom, procedural film grain, lens distortion, and screen-space fluid dynamics.
 - **PBR Material Pipeline**: Comprehensive fabric shaders accurately rendering technical nylon windbreakers, matte cotton knits, and gloss synthetic tracksuits.
 
-For comprehensive architectural breakdowns, shader analysis, and matrix transforms, see **[BEDAH_TEKNIKAL.md](BEDAH_TEKNIKAL.md)**.
-
 ---
 
 ## 🚀 Live Production & Infrastructure
