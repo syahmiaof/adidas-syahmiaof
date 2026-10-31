@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "cleanUrls": true,
   "headers": [
     {
       "source": "/assets/(.*)",
@@ -38,8 +37,7 @@
       ]
     }
   ],
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/:path*", "destination": "/index.html" }
   ]
 }
